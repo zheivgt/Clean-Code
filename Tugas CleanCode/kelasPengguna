@@ -1,8 +1,12 @@
-class kelasPengguna { 
-    protected String n; //username 
-    protected String p; //password 
-    
-    public void penyimpanan(String n, String p) { 
-    // isi code 
-    } 
-} 
+public class KelasPengguna {
+
+    private String username; // variabel untuk nama pengguna
+    private String password; // variabel untuk kata sandi
+
+    public void simpanKredensial(String username, String password) {
+        // Implementasikan kode untuk menyimpan kredensial
+        // Anda dapat mengakses variabel instance menggunakan this.username dan this.password
+        // Contoh: this.username = username;
+        //         this.password = password;
+    }
+}
